@@ -314,7 +314,7 @@ const PlantDiseasePredictor = () => {
     "Tomato___healthy",
   ];
 
-  let apiKey = "AIzaSyD-rwPq8xV2XktuVdDsFlhZC34T5GILr3s";
+  let apiKey = "YOUR API";
   const modelType = "gemini-1.5-flash";
   const promptText = `Explain in not more than 200 words, What is a ${plantstate[prediction]} Crop or Plant Condition and mention in points What are the measures we can take for a healthy crop? Give the information in bullet points.`;
 
